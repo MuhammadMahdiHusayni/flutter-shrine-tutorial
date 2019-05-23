@@ -91,6 +91,9 @@ ThemeData _buildShrineTheme() {
     // TODO: Add the icon theme (103)
     primaryIconTheme: base.iconTheme.copyWith(color: kShrineBrown900),
     // TODO: Decorate the inputs (103)
+    inputDecorationTheme: InputDecorationTheme(
+      border: OutlineInputBorder(),
+    ),
   );
 }
 // TODO: Build a Shrine Text Theme (103)
